@@ -1,0 +1,14 @@
+@import '../../styles/_shared.scss';
+
+.button {
+  @include Button;
+  margin-top: 1.5rem;
+}
+
+.text {
+  font-size: 1.2rem;
+
+  span {
+    color: $primary-color;
+  }
+}

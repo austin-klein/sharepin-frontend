@@ -1,0 +1,75 @@
+@import '../../styles/_shared.scss';
+
+.container {
+  @include LoginAndRegisterContainer;
+}
+
+.heading {
+  @include Heading;
+}
+
+.text {
+  font-size: 1.2rem;
+
+  span {
+    color: $primary-color;
+  }
+}
+
+.input {
+  @include Input;
+  margin-top: 1rem;
+}
+
+.button {
+  @include Button;
+  margin-top: 1rem;
+}
+
+.usernameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.usernameProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: $border-radius;
+
+  p {
+    font-size: 1.2rem;
+    margin-right: 0.5rem;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.8rem;
+  font-style: italic;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.icon {
+  color: $primary-color;
+  margin-right: 3px;
+}
+
+.change {
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+  color: $primary-color;
+  cursor: pointer;
+}

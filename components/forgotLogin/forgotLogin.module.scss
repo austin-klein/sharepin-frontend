@@ -1,0 +1,23 @@
+@import '../../styles/_shared.scss';
+
+.container {
+  @include LoginAndRegisterContainer;
+}
+
+.heading {
+  @include Heading;
+}
+
+.text {
+ font-size: 1.2rem;
+}
+
+.input {
+  @include Input;
+  margin-top: 1rem;
+}
+
+.button {
+  @include Button;
+  margin-top: 1rem;
+}
